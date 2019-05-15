@@ -1,7 +1,7 @@
 #!/bin/bash
 
 aws cloudformation $ACTION \
-    --region us-east-1 \
+    --region ap-south-1a \
     --stack-name $STACK_NAME \
     --template-body file://service.yaml \
     --capabilities CAPABILITY_NAMED_IAM \
